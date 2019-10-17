@@ -1,0 +1,34 @@
+@import '@/assets/scss/common.scss';
+
+.index {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+
+  >div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed $border;
+    cursor: pointer;
+
+    >i {
+      margin-right: 5px;
+      transition: all .3s;
+    }
+
+    >span {
+      transition: all .3s;
+    }
+  }
+
+  >div:hover {
+    >i,
+    >span {
+      color: $colorHover;
+    }
+  }
+}

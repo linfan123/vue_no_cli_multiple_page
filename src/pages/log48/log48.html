@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>更新日志</title>
+</head>
+
+<body>
+  <div id="app" class="log">
+    <c-header></c-header>
+    <div @click="switchPage">
+      <i class="iconfont icon-typeface"></i>
+      <span>跳转至fdsfsdfsffdsdads首fffddasa页ffasfsfsf</span>
+    </div>
+    <ul>
+      <li v-for="(item, index) in logData" :key="index">
+        <span>{{item.time}}：</span>
+        <p v-for="(items, indexs) in item.dataList" :key="indexs">{{items}}</p>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

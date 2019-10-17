@@ -1,0 +1,46 @@
+[{
+  "time": "2019.05.30（1.2.3）",
+  "dataList": [
+    "[增加] vue2 作为脚手架主框架",
+    "[增加] copy-webpack-plugin 复制静态文件至 dist 文件下",
+    "[增加] axios 作为前端请求后台资源组件",
+    "[移除] avalon2 框架",
+    "[移除] webpack.ProvidePlugin 对 jquery 全局变量的支持"
+  ]
+}, {
+  "time": "2019.03.28（1.2.2）",
+  "dataList": [
+    "[增加] avalon2 作为脚手架主框架",
+    "[增加] main 公共文件",
+    "[增加] 文件打包末尾追加 package 版本号",
+    "[增加] html 增加 hash 与 xhtml 支持",
+    "[移除] notifier 桌面错误提示"
+  ]
+}, {
+  "time": "2018.09.04（1.2.1）",
+  "dataList": [
+    "[增加] webpack.ProvidePlugin 对 jquery 全局变量的支持"
+  ]
+}, {
+  "time": "2018.09.03（1.2.0）",
+  "dataList": [
+    "[增加] HtmlWebpackPlugin.chunks 修复独立文件所有页面均引用的 BUG",
+    "[增加] HtmlWebpackPlugin.chunksSortMode 确保分离文件顺序正常",
+    "[增加] HtmlWebpackPlugin.minify 对 HTML 代码进行压缩精简",
+    "[增加] ProgressBarPlugin 在打包或开发中显示进度条",
+    "[增加] FriendlyErrorsWebpackPlugin 更好的控制台输出开发信息",
+    "[增加] notifier 将进行桌面输出错误信息",
+    "[分离] webpack.config 中打包模块命名为 webpack.prod"
+  ]
+}, {
+  "time": "2018.06.13（1.1.0）",
+  "dataList": [
+    "[分离] webpack.config 文件",
+    "[增加] autoprefixer 和 optimize-css-assets-webpack-plugin 等"
+  ]
+}, {
+  "time": "2018.06.08（1.0.0）",
+  "dataList": [
+    "[初始] 脚手架初代版本"
+  ]
+}]

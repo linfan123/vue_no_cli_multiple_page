@@ -1,0 +1,64 @@
+@import '@/assets/scss/common.scss';
+
+.log {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+
+  >div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed $border;
+    cursor: pointer;
+
+    >i {
+      margin-right: 5px;
+      transition: all .3s;
+    }
+
+    >span {
+      transition: all .3s;
+    }
+  }
+
+  >div:hover {
+
+    >i,
+    >span {
+      color: $colorHover;
+    }
+  }
+
+  >ul {
+    width: 100%;
+    height: auto;
+
+    >li {
+      width: calc(100% - 145px);
+      min-height: 30px;
+      line-height: 30px;
+      padding-left: 145px;
+      position: relative;
+      margin-bottom: 20px;
+      transition: all .3s;
+
+      >span {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      >p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    >li:hover {
+      color: $colorHover;
+    }
+  }
+}
